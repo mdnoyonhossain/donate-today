@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: #707070;
+}
+
+/*
+* Banner Area
+*/
+.banner {
+    text-align: center;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 500px;
+    padding-top: 75px;
+    margin-bottom: 50px;
+}
+
+.banner p {
+    margin-top: -35px;
+    margin-bottom: 40px;
+    color: #cccccc;
+}
+
+.button-link {
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/*Banner Area End */
+
+/* 
+* Donate Today Area
+ */
+.donate-today {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.donate-today p {
+    margin-top: -17px;
+}
+
+.donate-amount {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.donate-amount h3 {
+    background-color: #FAFAFA;
+    color: #707070;
+    width: 80px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 28px;
+}
+
+#highlite-box {
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+
+.other-donate {
+    width: 60%;
+    margin: auto;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.other-donate [type=text] {
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    width: 60%;
+    text-align: center;
+}
+
+.other-donate .button-link {
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Donate Today Area End */
+
+/*
+ * Donate Plan Area
+ */
+.donateplan-area {
+    margin-bottom: 80px;
+}
+
+.plan-table {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 285px;
+    margin: auto;
+    gap: 3%;
+}
+
+.plan-table p {
+    font-size: 13px;
+    color: #707070;
+}
+
+.donateplan-info {
+    text-align: center;
+}
+
+.donateplan-info p {
+    margin-top: -17px;
+    margin-bottom: 50px;
+}
+
+#food {
+    background-color: rgba(79, 157, 166, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#shelter {
+    background-color: rgba(255, 89, 89, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#education {
+    background-color: #FFF4D6;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Donate Plan Area End */
+
+.lives-depend {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.lives-depend img {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/*
+volunteers-info
+*/
+.our-volunteers {
+    margin-bottom: 80px;
+}
+
+.volunteers-info {
+    text-align: center;
+}
+
+.volunteers-info hr {
+    width: 130px;
+    margin-top: -25px;
+}
+
+.volunteers-info p {
+    margin-bottom: 50px;
+}
+
+.team {
+    width: 80%;
+    margin: auto;
+    gap: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.team h4 {
+    margin-bottom: 4px;
+}
+
+/* volunteers-info */
+/**
+* Get Updates
+**/
+.get-updates {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.get-updates p {
+    margin-bottom: 40px;
+}
+
+.subscribe {
+    width: 50%;
+    margin: auto;
+    background-color: #FFF4D6;
+    padding: 70px;
+}
+
+.subscribe [type=email] {
+    padding: 12px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px 0 0 8px;
+    width: 230px;
+}
+
+.subscribe .button-link {
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    margin-left: -4px;
+    margin-top: 15px;
+    padding: 11px;
+}
+
+.subscribe .button-link {
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+}
+
+/* Get Update End */
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+    color: white;
+}
+
+#footer-logo {
+    color: #FF5959;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+small {
+    font-size: 11px;
+    color: #cccccc;
+}
